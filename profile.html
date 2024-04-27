@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+    <script defer src="profile.js"></script>
+    <script defer src="login.js"></script>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="profile-container" id="profile">
+
+        <header>PROFILE</header>
+
+
+        <div class="input-box">
+            <input type="text" id="profile-user" class="input-field" disabled>
+            <span id="user-change" class="change">Change</span>
+            <span id="cancel-user" class="cancel">Cancel</span>
+        </div>
+
+        <div class="input-box pass-box">
+            <input type="password" id="profile-password" class="input-field" disabled>
+            <span id="pass-change" class="change">Change</span>
+            <span id="cancel-pass" class="cancel">Cancel</span>
+
+
+            <div class="new-pass-change" id="new-pass-change-modal">
+
+                <input id="oldpass" type="password" placeholder="Enter Old Password">
+                <input id="newpass" type="password" placeholder="Enter New Password">
+
+                <div class="newpasschangebutton">
+                    <button id="confirm" class="new-pass-btn">Confirm</button>
+                    <button id="newpass-cancel" class="new-pass-btn">Cancel</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="input-box">
+            <input type="text" id="profile-address" class="input-field" disabled>
+            <span id="address-change" class="change">Change</span>
+            <span id="cancel-address" class="cancel">Cancel</span>
+        </div>
+
+
+
+
+        <div class="input-box">
+            <input type="text" id="profile-email" class="input-field" disabled>
+            <span id="email-change" class="change">Change</span>
+            <span id="cancel-email" class="cancel">Cancel</span>
+        </div>
+        <div class="input-box box-update">
+            <button id="update-btn" class="updatebtn">Update</button>
+
+
+            <div class="update-validation-modal" id="update-modal">
+                <div class="update-val-inner">
+                    <p>Are you sure you want to change the information? if so, we will direct you to login section to update the changed information.</p>
+
+
+                    <button id="update-yes">Yes</button>
+                    <button id="update-no">No</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="change-validation-modal" id="validation-modal">
+
+
+        <div class="validation-inner">
+
+            <div class="validation-header">
+                <p>Are you use you want to change this information?</p>
+            </div>
+
+           
+            <button id="yes">Yes</button>
+            <button id="no">No</button>
+
+        
+
+        </div>
+
+    </div>
+
+</body>
+</html> 

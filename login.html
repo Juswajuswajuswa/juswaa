@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+
+    <div class="form-box">
+
+        
+    <div class="login-container" id="login">
+        <header>Login</header>
+
+        <div class="input-box">
+            <input type="text" id="login-user" class="input-field" placeholder="Username or Email">
+            <i class="bx bx-user"></i>
+        </div>
+        <div class="input-box">
+            <input type="password" id="login-pass" class="input-field" placeholder="Password">
+            <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box">
+            <button type="submit" id="loginSubmit" class="submit">Login</button>
+        </div>
+        <div class="two-col">
+            <div class="one">
+                <input type="checkbox" id="login-check">
+                <label for="login-check"> Remember Me</label>
+            </div>
+            <div class="middle">
+                <button id="registerBtn" onclick="registerB()" class="btnbtn">Register</button>
+            </div>
+            <div class="two">
+                <label><a href="#">Forgot password?</a></label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="register-container" id="register">
+
+        <header>Register</header>
+
+
+        <div class="input-box">
+            <input type="text" id="username" class="input-field" placeholder="Enter username">
+            <i class="bx bx-user"></i>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="email" class="input-field" placeholder="Email">
+            <i class="bx bx-envelope"></i>
+        </div>
+        <div class="input-box">
+            <input id="password1" type="password" class="input-field" placeholder="Password">
+            <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box">
+            <input id="password2" type="password" class="input-field" placeholder="Password">
+            <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box">
+            <input type="text" id="address" class="input-field" placeholder="Enter Adress">
+            <!-- <i class="bx bx-lock-alt"></i> -->
+            <p class="mar-top"></p>
+        </div>
+        <div class="input-box">
+            <button id="registerSubmit" class="submit submit-btn" value="Register">Submit</button>
+        </div>
+        <div class="two-col">
+            <div class="one">
+                <input type="checkbox" id="register-check">
+                <label for="register-check"> Remember Me</label>
+            </div>
+            <div class="middle">
+                <button id="loginBtn" onclick="loginB()" class="btnbtn">Login</button>
+            </div>
+            <div class="two">
+                <label><a href="#">Terms & conditions</a></label>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+</html>

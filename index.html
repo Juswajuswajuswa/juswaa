@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSYSTEM</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+    <script src="index.js" defer></script>
+    <script src="login.js"defer></script>
+
+<body onload="myBody()">
+    
+
+    <header class="header" id="header">
+
+        <div class="navbar container">
+
+            <div class="login">
+                <i id="user-profile" class='fas fa-user-alt'></i>
+                <p id="profile-name"></p>
+            </div>
+
+
+            <div class="main-nav">
+                <div class="nav-list1 nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#" id="open-contact">Contact</a></li>
+                </div>
+
+                <a href="#" class="logo">
+                    <h3>GLOCKS</h3>
+                </a>
+
+                <div class="nav-list2 nav">
+                    <li class="socials"><a id="socials">Socials</a>
+                    
+                        <div class="socials-inner" id="socials-inner">
+                            <a href="https://www.facebook.com/profile.php?id=100093050793303&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fglocks_tfvc%3Figshid%3DMzNlNGNkZWQ4Mg%253D%253D%26fbclid%3DIwAR26WTVGw17h1qWiZ1jl2LpM3FDMb0-NVUwYEaFZsxHd5okPiZOSG8-t5rE&h=AT1blzU1oZsST4Qhb_GomuVMMfYtfw2XgU4zkrMT6i2gPKqSrrvgl0irJ99tFADwACBpDpAH-qc_vk2bVE657Y7EgnpKLtlAw3LnTRkOEruGUEQrzPKLCDNdui3pPD5BE6nhHA"
+                             target="_blank"><i class="fab fa-instagram"></i></a> 
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fglockstfvc%3Ft%3D-603OmEyykVizPHuzTT2cg%26s%3D09%26fbclid%3DIwAR1yQs9hUk8oUEN_A_cMaRtJB8GhFusOMoTH79XUrLy-RluGJvQmUjEe58Y&h=AT1TXMITCS60sMmWvBjhKFqs-OafmHTSmZ5qMVfI-ZI8PXYqGWk8H1uojm9tqez5ir89oa0lh31XhfupwBZqlz4l3GFz-DdizTkTCA2oOfgnU_BJBBLAoJQZy5KBDQskdFBMSg" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="div">
+                
+            </div>
+
+            <div class="ccontainer">
+                <div class="add-to-cart-icon">
+                    <button><i class="fas fa-shopping-cart" id="cart-icon"></i></button>
+    
+                    <span class="notification" id="notification">0</span>
+    
+                </div>
+    
+                <div class="heart-favorite-icon">
+                    <button><i class="fa-regular fa-heart"></i></button>
+    
+                    <span class="notification2" id="notification2">0</span>
+                </div>
+    
+                <!-- <i class='fas fa-user-alt'></i> -->
+    
+                
+                <div class="logout">
+                    <button class="login logout"><i  id="login-btn" class='fas fa-sign-out-alt'></i></button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+
+    <main class="main">
+        
+        <section class="home section" id="home">
+
+            <div class="home-container container">
+
+                <div class="home-data">
+                    <h1>Fashion <br> is the best way to <br> express yourself, <br> be yourself</h1>
+                </div>
+
+                <div class="center-img">
+                    <img src="./images/model.png" alt="">
+                </div>
+                
+                <div class="home-slider">
+                    <div class="home-slider-data">
+                        <h3>POPULAR</h3>
+                        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="home-box">
+
+                        <img src="./images/jacket3.png" alt="">
+
+                        <button class="angle-right">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+
+                        <button class="angle-left">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+
+                    </div>
+
+                    <div class="home-box-data">
+                        <button class="see-product"> <a href="#products"> See product </a> </button>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PRODUCT SECTION  -->
+        <section class="product section" id="products">
+
+            <div class="search-categories">
+
+                <div class="categories">
+                    <div class="categories-titles">
+                        <button type="button" onclick="location.href='#jacket'">Men's Jacket</button>
+                        <button type="button" onclick="location.href='#shirt'">Women's Jacket</button>
+                        <button type="button" onclick="location.href='#shoes'">Kid's Jacket</button>
+                    </div>
+                </div>
+
+                <div class="search-for-product" >
+                    <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+                    <input type="text" id="search-box" placeholder="Search Product here">
+                </div>
+            </div>
+
+            
+
+            <div class="product-container container" id="product-container" >
+                
+                <!-- SECTION NG JACKET PRODUCT -->
+
+                <div class="jacket-section" id="jacket">
+
+                    <div class="jacket-section-title">
+                        <h3>Jackets and Coats For Men</h3>
+                    </div>
+
+                    <div class="line"></div> 
+
+                    <div class="jacket-section-container">
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon" =""></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/jacket1.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Zip Up Jacket</h3>
+                                <span class="span-relative">₱15,399
+
+                                    <!-- <span class="span-absolute">₱15,300</span>  -->
+
+                                </span>
+                            </div>
+         
+                            <div class="product-desc">
+                                <p>Clothes Type: Jackets Material: Polyester Weight: 1.0150kg</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(1)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+
+                                
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/jacket2.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Hooded Coat</h3>
+                                <span  class="span-relative">₱7,499
+
+                                    <span class="span-absolute">₱13,000</span>
+
+                                </span>
+                            </div>
+    
+                            <div class="product-desc">
+                                <p>Clothes Type: Jackets Material: Polyester Weight: 0.5150kg</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(2)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/jacket3.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Black coat</h3>
+                                <span  class="span-relative">₱7,300
+
+                                    <span class="span-absolute">₱13,000</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Clothes Type: Jackets Material: Polyester Weight: 1.0150kg</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(3)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/jacket4.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>FrostCoat</h3>
+                                <span  class="span-relative">₱15,500
+
+                                    <!-- <span class="span-absolute">₱14,500</span> -->
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Clothes Type: Jackets Material: Polyester Weight: 1.0150kg</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(4)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/jacket5.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>FrostLuxury</h3>
+                                <span  class="span-relative">₱16,300
+
+                                    <!-- <span class="span-absolute">₱16,300</span> -->
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Clothes Type: Jackets Material: Polyester Weight: 1.0150kg</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(5)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- SHIRT AND PANTS SET SECTION -->
+
+                <div class="jacket-section" id="shirt" >
+
+                    <div class="jacket-section-title">
+                        <h3>Shirt and Pants set</h3>
+                    </div>
+
+                    <div class="line"></div> 
+
+                    <div class="jacket-section-container">
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images2/fjacket1-removebg-preview.png">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>PoloFlex Set</h3>
+                                <span  class="span-relative">₱4,700
+
+                                    <span class="span-absolute">₱5,300</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Material: Polyester, Thickness: moderate, Season: Summer</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(6)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images2/fjacket2-removebg-preview.png">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Sporty Combo</h3>
+                                <span  class="span-relative">₱5,500
+
+                                    <span class="span-absolute">5,500</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Material: Polyester, Thickness: moderate, Season: Summer</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(7)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images2/fjaccket3-removebg-preview.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>PoloDash Kit</h3>
+                                <span  class="span-relative">₱5,800
+
+                                    <span class="span-absolute">₱5,500</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Material: Polyester, Thickness: moderate, Season: Summer</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(8)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images2/fjacket4-removebg-preview.png">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Styler Duo</h3>
+                                <span  class="span-relative">₱4,500
+
+                                    <span class="span-absolute">₱5,500</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Material: Polyester, Thickness: moderate, Season: Summer</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(9)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images2/fjacket5-removebg-preview.png">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>PoloLite</h3>
+                                <span  class="span-relative">₱4,700
+
+                                    <span class="span-absolute">₱5,400</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Material: Polyester, Thickness: moderate, Season: Summer</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(10)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                    </div>
+                </div> 
+
+
+                <!-- SHOES SECTION -->
+
+                <div class="jacket-section" id="shoes">
+
+                    <div class="jacket-section-title">
+                        <h3>Shoes</h3>
+                    </div>
+
+                    <div class="line"></div> 
+
+                    <div class="jacket-section-container">
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/shoes11.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Baroque Deby</h3>
+                                <span  class="span-relative">₱9,999
+
+                                    <span class="span-absolute">₱18,000</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Black leather and rubber trim, Low heel, Made in Italy</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(11)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/shoes15.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>Opulenza</h3>
+                                <span  class="span-relative">₱7,560
+
+                                    <span class="span-absolute">₱1500</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Black leather and rubber trim, Low heel, Made in Italy</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(12)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/shoes13.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>LuxeStride</h3>
+                                <span  class="span-relative">₱5,333
+
+                                    <span class="span-absolute">₱8,500</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Black leather, Men's, Leather sole</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(13)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/shoes14.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>EleganteSole</h3>
+                                <span  class="span-relative">₱10,999
+
+                                    <span class="span-absolute">₱1500</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Reflective fabric trim, Low heel, Made in Italy</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(14)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                        <div class="product-cards" id="product-cards">
+
+                            <button class="heart">
+                                <i class="fa-solid fa-heart" id="heart-icon"></i>
+                            </button>
+
+                            <div class="product-img">
+                            <img src="./images/shoes12.png" alt="">
+                            </div>
+        
+                            <div class="product-name-price">
+                                <h3>PrestigeStep</h3>
+                                <span  class="span-relative">₱6,800
+
+                                    <span class="span-absolute">₱8,900</span>
+
+                                </span>
+                            </div>
+        
+                            <div class="product-desc">
+                                <p>Black Original GG, Black grosgrain trim, Made in Italy</p>
+                            </div>
+        
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+        
+                            <div class="product-btn">
+                                <button id="add"  onclick="addToCart(15)">Add to Cart</button>
+                                <button id="buy">Buy Now</button>
+                            </div>
+        
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+
+        <div class="newsletter-section section" id="subscribe">
+
+            <div class="newsletter-container container">
+
+                <div class="newsletter-title">
+                    <h3>Subscribe</h3>
+                </div>
+
+                <div class="linee"></div>
+
+                <div class="newsletter-description">
+                    <p>Subscribe our newsletter to stay updated every moment</p>
+                </div>
+
+                <div class="newsletter-input">
+                    <input id="subscribe-input"  type="email" placeholder="Enter your email adress to get updated">
+                    <button id="subscribe-btn">Submt</button>
+                </div>
+
+
+                <!-- <div class="newsletter-model">
+                    <img src="/images/model4.png" alt="">
+                </div> -->
+
+            </div>
+            
+        </div>
+
+    </main>
+
+
+    <!-- CART SECTION -->
+
+    <div class="cart" id="cart-container">
+
+        <div class="cart-header">
+
+            <div class="cart-title">
+                <h3>YOUR CART</h3>
+            </div>
+
+        </div>
+
+        <div class="cart-body" id="cart-body-container">
+
+            <!-- CART ITEM GOES HERE -->
+
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                
+                <div class="cart-product-total">
+                    <p>Total</p>
+                </div>
+
+                <div class="cart-product-price">
+                    <p id="total-product-price">0</p>
+                </div>
+
+            </div>
+
+
+            <div class="cart-button">
+                <button id="check-out-button">Check Out</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer section">
+        <div class="footer__container container">
+    
+          <div class="footer__header">
+           <a href="#" class="logo footer__logo">
+           <p>GLOCKS</p>
+           </a>
+            <p class="footer__description">
+                Is a Filipino fashion for men company founded in 2023 by the Fisher Valley College, Inc. First year students 
+                In Manila, Philippines
+            </p>
+          </div>
+    
+          <div class="footer__body">
+    
+            <div class="main__menu">
+              <h3 class="menu__title">Main menu</h3>
+              <ul>
+                <li>About</li>
+                <li>Pictures</li>
+                <li>Offer</li>
+                <li>Events</li>
+              </ul>
+            </div>
+            
+            <div class="main__menu">
+              <h3 class="menu__title">Information</h3>
+              <ul>
+                <li>Contact</li>
+                <li>Lorem, ipsum.</li>
+                <li>Videos</li>
+                <li>Lorem</li>
+              </ul>
+            </div>
+    
+            <div class="main__menu">
+              <h3 class="menu__title">Adress</h3>
+              <ul>
+                <li>Taguig City, Philippines</li>
+                <li>7AM - 7PM</li>
+              </ul>
+            </div>
+    
+            <div class="main__menu">
+              <ul class="social__links">
+                <a href="https://www.facebook.com/profile.php?id=100093050793303&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fglocks_tfvc%3Figshid%3DMzNlNGNkZWQ4Mg%253D%253D%26fbclid%3DIwAR26WTVGw17h1qWiZ1jl2LpM3FDMb0-NVUwYEaFZsxHd5okPiZOSG8-t5rE&h=AT1blzU1oZsST4Qhb_GomuVMMfYtfw2XgU4zkrMT6i2gPKqSrrvgl0irJ99tFADwACBpDpAH-qc_vk2bVE657Y7EgnpKLtlAw3LnTRkOEruGUEQrzPKLCDNdui3pPD5BE6nhHA" target="#"><i class="fab fa-instagram"></i></a> 
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fglockstfvc%3Ft%3D-603OmEyykVizPHuzTT2cg%26s%3D09%26fbclid%3DIwAR1yQs9hUk8oUEN_A_cMaRtJB8GhFusOMoTH79XUrLy-RluGJvQmUjEe58Y&h=AT1TXMITCS60sMmWvBjhKFqs-OafmHTSmZ5qMVfI-ZI8PXYqGWk8H1uojm9tqez5ir89oa0lh31XhfupwBZqlz4l3GFz-DdizTkTCA2oOfgnU_BJBBLAoJQZy5KBDQskdFBMSg" target="_blank"><i class="fab fa-twitter"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer__bottom">
+          <span class="footer__copy">
+            &#169; Copyright Glocks. All rights reserved
+          </span>
+        </div>
+    
+      </footer>
+
+
+    <div class="heart-modal" id="heart-modal">
+        <p>Added to favorite list! <i class="fa-regular fa-heart"></i></p>
+    </div>
+
+    <div class="add-cart-modal" id="add-cart-modal">
+        <p>Added to cart! <i class="fas fa-shopping-cart" id="cart-icon"></i></p>
+    </div>
+
+
+    <!-- BUY MODAL -->
+
+    <div class="payment-modal-outer" id="payment-modal-outer">
+        
+        <div class="close-btn-modal" id="close">
+            <i class="fa-solid fa-xmark" id="close-btn-modal"></i>
+        </div>
+
+        <div class="payment-modal" id="payment-modal">
+
+
+            <div class="modal-main">
+    
+                <div class="modal-title">Order</div>
+                <div class="modal-description">Delivery information</div>
+                <form class="modal-form">
+                    
+                    <input type="text" id="name" class="name-input a" placeholder="Enter your name" required>
+                    <input type="text" placeholder="adress" class="a" required>
+                    <input type="text" class="card-number-input a" placeholder="Enter your number" required>
+                    <input type="text" class="card-code a" placeholder="Other Notes">
+                    <button type="submit" id="pay-btn" class="pay-btn">Pay</button>
+                </form>
+    
+            </div>
+    
+            <div class="payment-method">
+                <div class="payment-method-title">Payment Method</div>
+    
+                <div class="payment-method-inner">
+    
+                    <div class="cash-on-delivery">
+                        <label for="radio1">
+                            <img src="cash-on-delivery.png" alt="">
+                            Cash on Delivery
+                        </label>
+                        <input type="radio" id="radio1" name="radio">
+                    </div>
+            
+                    <div class="gcash-mode">
+                        <label for="radio2">
+                            <img src="gcash-img.png" alt="">
+                            GCash e-Wallet
+                        </label>
+                        <input type="radio" id="radio2" name="radio">   
+                    </div>
+                    
+                    <div class="voucher">
+                        <p>Voucher</p>
+                        <div class="voucher-flex">
+                            <input type="text" placeholder="Enter your voucher code">
+                            <button>Apply</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+
+    <!-- CONTACT MODAL -->
+
+    <div class="contact-modal" id="contact-modal">
+
+
+        <div class="contact-container">
+
+            <div class="img">
+                 <img src="/AVS CODE VERSION/images/model4.png" alt="">
+            </div>
+     
+         
+     
+     
+            <div class="form-outer">
+                 <div class="form-title">
+                     Contact Us
+                 </div>
+     
+     
+     
+                 <div class="form-columns">
+     
+                     <div class="cols">
+         
+                         <form class="contact-form" action="">
+         
+                            <label id="form-label" for="name">Full Name</label>
+                            <input class="form-input" type="text" id="name" name="name">
+                 
+                            <label id="form-label"  for="email">E-mail</label>
+                            <input class="form-input" type="email" id="email" name="email">
+                 
+                            <label id="form-label"  for="message">Message</label>
+                            <textarea name="message" id="message"></textarea>
+                 
+                            <button class="close-contact" id="close-contact">Contact Us</button>
+                 
+                         </form>
+         
+         
+                         <div class="contact">
+         
+                             <h3>Contact</h3>
+                             <p>glocksofficial@gmail.com</p>
+         
+         
+                             <h3>Based in</h3>
+                             <p>Taguig, Philippines</p>
+     
+     
+                             <div class="socials">
+                                
+                                <a href="https://www.facebook.com/profile.php?id=100093050793303" 
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fglocks_tfvc%3Figshid%3DMzNlNGNkZWQ4Mg%253D%253D%26fbclid%3DIwAR26WTVGw17h1qWiZ1jl2LpM3FDMb0-NVUwYEaFZsxHd5okPiZOSG8-t5rE&h=AT1blzU1oZsST4Qhb_GomuVMMfYtfw2XgU4zkrMT6i2gPKqSrrvgl0irJ99tFADwACBpDpAH-qc_vk2bVE657Y7EgnpKLtlAw3LnTRkOEruGUEQrzPKLCDNdui3pPD5BE6nhHA" target="_blank"><i class="fab fa-instagram"></i></a> 
+                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fglockstfvc%3Ft%3D-603OmEyykVizPHuzTT2cg%26s%3D09%26fbclid%3DIwAR1yQs9hUk8oUEN_A_cMaRtJB8GhFusOMoTH79XUrLy-RluGJvQmUjEe58Y&h=AT1TXMITCS60sMmWvBjhKFqs-OafmHTSmZ5qMVfI-ZI8PXYqGWk8H1uojm9tqez5ir89oa0lh31XhfupwBZqlz4l3GFz-DdizTkTCA2oOfgnU_BJBBLAoJQZy5KBDQskdFBMSg" target="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fglockstfvc%3Ft%3D-603OmEyykVizPHuzTT2cg%26s%3D09%26fbclid%3DIwAR1yQs9hUk8oUEN_A_cMaRtJB8GhFusOMoTH79XUrLy-RluGJvQmUjEe58Y&h=AT1TXMITCS60sMmWvBjhKFqs-OafmHTSmZ5qMVfI-ZI8PXYqGWk8H1uojm9tqez5ir89oa0lh31XhfupwBZqlz4l3GFz-DdizTkTCA2oOfgnU_BJBBLAoJQZy5KBDQskdFBMSg"><i class="fab fa-twitter"></i></a>
+
+                             </div>
+         
+         
+                         </div>
+         
+                     </div>
+         
+                 </div>
+     
+     
+            </div>
+     
+     
+     
+     
+         </div>
+         
+
+    </div>
+
+    
+
+
+</body>
+
+
+</html>

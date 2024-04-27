@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <button data-open-modal>Open</button>
+
+    <div class="contact-container">
+
+       <div class="img">
+            <img src="/images/model4.png" alt="">
+       </div>
+
+    
+
+
+       <div class="form-outer">
+            <div class="form-title">
+                Contact Us
+            </div>
+
+
+
+            <div class="form-columns">
+
+                <div class="cols">
+    
+                    <form class="contact-form" action="">
+    
+                        <label class="form-label" for="name">Full Name</label>
+                        <input class="form-input" type="text" id="name" name="name">
+            
+                        <label class="form-label"  for="email">E-mail</label>
+                        <input class="form-input" type="email" id="email" name="email">
+            
+                        <label class="form-label"  for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+            
+                        <button class="close-modal">Contact Us</button>
+            
+                    </form>
+    
+    
+                    <div class="contact">
+    
+                        <h3>Contact</h3>
+                        <p>glocksofficial@gmail.com</p>
+    
+    
+                        <h3>Based in</h3>
+                        <p>Taguig, Philippines</p>
+
+
+                        <div class="socials">
+                            
+                        </div>
+    
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+
+
+       </div>
+
+
+
+
+    </div>
+    
+</body>
+
+<script>
+
+    const openModalBtns = document.querySelector('[data-open-modal]')
+    const closeModalBtns = document.querySelector('#close')
+    const modal = document.querySelector('[data-modal]')
+
+
+    openModalBtns.addEventListener('click', () => {
+        modal.showModal()
+    })
+
+
+    closeModalBtns.addEventListener('click', () => {
+        modal.closeModal()
+    })
+
+
+</script>
+
+</html>

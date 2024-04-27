@@ -1,0 +1,203 @@
+*, ::after, ::before {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+.profile-container {
+    transition: .5s ease-in-out;
+    border: 1px solid black;
+    padding: 1.8rem;
+    border-radius: 1rem;
+    width: 500px;
+    background-color: white;
+}
+
+header{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+.input-field{
+    font-size: 15px;
+    background: rgb(212, 208, 208);
+    color: black;
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.updatebtn {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border: 1px solid black;
+}
+
+.updatebtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.input-box {
+    position: relative;
+}
+
+.change {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: .2rem .5rem;
+    border-radius: 10px;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.change-validation-modal {
+    background-color: white;
+    height: 150px;
+    width: 250px;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    position: absolute;
+    right: 150px;
+    display: none;
+}
+
+.validation-inner {
+    text-align: center;
+}
+
+.validation-inner button {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.cancel {
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: .2rem .5rem;
+    border-radius: 10px;
+    right: 90px;
+    top: 12px;
+    cursor: pointer;
+    display: none;
+}
+
+.pass-box {
+    position: relative;
+}
+
+.new-pass-change {
+    position: absolute;
+    right: -250px;
+    top: -50px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: white;
+    display: none;
+}
+
+.new-pass-change input {
+    width: 100%;
+    margin-bottom: .5rem;
+
+    font-size: 12px;
+    background: white;
+    color: black;
+    height: 35px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+    border: 1px solid black;
+}
+
+.new-pass-btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: .4rem .1rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.newpasschangebutton {
+    margin-top: 1rem;
+}
+
+.box-update {
+    position: relative;
+}
+
+.update-validation-modal {
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    right: -350px;
+    top: -70px;
+    display: none;
+}
+
+.update-val-inner {
+    text-align: center;
+}
+
+.update-val-inner p {
+    margin-bottom: 1rem;
+}
+.update-val-inner button {
+    width: 100px;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    padding: .5rem 0;
+}
+
